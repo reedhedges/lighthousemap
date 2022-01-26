@@ -1,0 +1,34 @@
+{
+  "name": "lighthousemap",
+  "version": "1.0.0",
+  "description": "light house map",
+  "main": "lighthousemap.js",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "osmtogeojson": "^3.0.0-beta.4",
+    "rbush": "^3.0.1",
+    "turf": "^3.0.14"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedhedges/lighthousemap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reedhedges/lighthousemap/issues"
+  },
+  "homepage": "https://github.com/reedhedges/lighthousemap#readme"
+}
